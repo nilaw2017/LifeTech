@@ -21,7 +21,6 @@
   font-weight: 300;
   color: #1a1818;
 }
-<<<<<<< HEAD
 .contact
 {
     width: 100%;
@@ -29,10 +28,6 @@
     justify-content: top;
     align-items: top;
     margin-top: 30px;
-=======
-.contact {
-  margin-top: 30px;
->>>>>>> 820af0a2313673f7313881de41d2b537c8eda22b
 }
 body {
   background: brown;
