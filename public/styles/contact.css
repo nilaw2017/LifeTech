@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.contact
+{
+    /* background-image: url("./../images/LifeTechLogo.png"); */
+    background-size: cover;
+    position: relative;
+    min-height: 100yh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     background-color: brown; 
+    background-size: cover ;
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2
+{
+    font-size: 36px;
+    font-weight: 500; 
+    color: #0a0909;
+}
+.contact .content p
+{
+    font-weight: 300; 
+    color: #1a1818;
+}
+.contact
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: corner;
+    min-height: 100vh;
+    background: #1a1818;
+}
