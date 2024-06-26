@@ -1,51 +1,39 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-.contact
-{
-    /* background-image: url("./../images/LifeTechLogo.png"); */
-    background-size: cover;
-    position: relative;
-    min-height: 100yh;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-     background-color: brown; 
-    background-size: cover ;
+.contact {
+  /* background-image: url("./../images/LifeTechLogo.png"); */
+  background-color: brown;
+  height: 100%;
 }
-.contact .content
-{
-    max-width: 800px;
-    text-align: center;
+.contact .content {
+  text-align: center;
 }
-.contact .content h2
-{
-    font-size: 36px;
-    font-weight: 500; 
-    color: #0a0909;
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #0a0909;
 }
-.contact .content p
-{
-    font-weight: 300; 
-    color: #1a1818;
+.contact .content p {
+  font-weight: 300;
+  color: #1a1818;
 }
+<<<<<<< HEAD
 .contact
 {
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: top;
+    align-items: top;
     margin-top: 30px;
+=======
+.contact {
+  margin-top: 30px;
+>>>>>>> 820af0a2313673f7313881de41d2b537c8eda22b
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: corner;
-    min-height: 100vh;
-    background: #1a1818;
+  background: brown;
 }
