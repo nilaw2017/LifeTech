@@ -8,5 +8,11 @@ router.get("/", (req, res) => {
 router.get("/contact", (req, res) => {
   res.render("pages/contact.ejs");
 });
+router.get("/about", (req, res) => {
+  res.render("pages/about.ejs");
+});
+router.get("/services", (req, res) => {
+  res.render("pages/services.ejs");
+});
 
 module.exports = router;
