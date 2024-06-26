@@ -29,7 +29,7 @@
 .about-us h2{
     font-size: 45px;
     margin-bottom: 20px;
-    color: blueviolet;
+    color: blue;
 }
 
 .about-us h3{
@@ -41,10 +41,22 @@
 .about-us p{
     font-size: 18px;
     line-height: 1.5;
-    color: azure;
+    color: black;
     margin-bottom: 20 px;
 }
 
-social-links{
+.social-links{
     margin-bottom: 20px;
+}
+
+.social-links a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: azure;
+
 }
