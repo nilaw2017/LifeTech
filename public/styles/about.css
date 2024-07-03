@@ -1,9 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 .about-us{
     padding: 80px 0px;
@@ -29,19 +24,20 @@
 .about-us h2{
     font-size: 45px;
     margin-bottom: 20px;
-    color: #EE1116;
+    color: white;
 }
 
 .about-us h3{
     font-size: 22px;
-    color:beige;
+    color:white
+    ;
     margin-bottom: 8px;
 }
 
 .about-us p{
     font-size: 18px;
     line-height: 1.5;
-    color: black;
+    color: white;
     margin-bottom: 20 px;
 }
 
@@ -83,4 +79,8 @@
 
 .btn:hover{
     transform: translateY(-3px);
+}
+
+body{
+    background-color: red;
 }
