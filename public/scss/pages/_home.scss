@@ -1,0 +1,67 @@
+.main {
+  h1 {
+    width: 200px;
+  }
+  .title-box {
+    p {
+      color: #ff8a47;
+    }
+    h2 {
+      font-weight: bold;
+    }
+  }
+
+  .title-cards {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    i {
+      font-size: 4rem;
+    }
+    .title-card {
+      text-align: center;
+      position: relative;
+      padding: 65px 30px 30px;
+      background-color: #f4f5fa;
+      border-radius: 20px;
+      i {
+        position: absolute;
+        top: -35px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      h3 {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      p {
+        text-align: center;
+        color: #848484;
+      }
+    }
+  }
+
+  .process-list {
+    .process {
+      display: inline-block;
+      position: relative;
+      span {
+        color: #fff;
+        font-size: 27px;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      p {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: -25px;
+        display: inline;
+        margin: 0;
+      }
+    }
+  }
+}
