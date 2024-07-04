@@ -131,7 +131,6 @@ ul li a:hover{
 .content{
     width: 800px;
     height: 1000px;
-    color: red;
     /* position: relative;
     top:15vh; */
 }
@@ -170,7 +169,7 @@ ul li a:hover{
     background-color: #fff;
  }
 
- .content span{
+ .content > h1 span{
     color: red;
     font-size: 60px;
  }
