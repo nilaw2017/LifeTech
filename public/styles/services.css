@@ -28,7 +28,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin: 75 px auto;
+    margin: 75px auto;
     text-align: center;
 
 }
@@ -41,9 +41,11 @@ body{
     flex-direction: column;
     margin:0px 20px;
     padding: 20px 20px;
+    margin-top: 60px;
     background-color: #efefef;
     border-radius: 10px;
     cursor: pointer;
+    
 }
 
 .card:hover{
@@ -83,6 +85,7 @@ body{
     background-color: #c94f4f;
     transition: 0.4s ease;
 }
+
 
 @media screen and (max-width: 940px) {
     .services{
