@@ -1,5 +1,9 @@
 .topbar {
-  margin: 20px 0;
+  background-color: #ededed;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  padding: 10px 0;
   .nav-menu {
     gap: 50px;
   }

@@ -15,6 +15,9 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+.bg-card {
+  background-color: var(--bg-card);
+}
 li {
   list-style: none;
 }
@@ -25,7 +28,8 @@ a {
 }
 
 .container {
-  max-width: 1320px;
+  // max-width: 1320px;
+  width: 90%;
   margin: auto;
 }
 

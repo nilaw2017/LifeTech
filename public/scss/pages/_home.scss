@@ -1,4 +1,28 @@
 .main {
+  padding: 220px 0 220px 0;
+  overflow: hidden;
+  .carousel-card {
+    border-radius: 10px;
+    padding: 30px;
+    i {
+      color: #ff7200;
+    }
+    .p {
+      font-size: 18px;
+    }
+    img {
+      width: fit-content !important;
+    }
+    h5 {
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 14px;
+    }
+  }
+  .bgimg {
+    width: inherit;
+  }
   h1 {
     width: 400px;
   }
@@ -78,7 +102,7 @@
 .content {
   position: inherit;
   z-index: 2;
-  width: 800px;
+  // width: 800px;
   color: var(--primary-color);
   h1 {
     font-family: "Times New Roman";
