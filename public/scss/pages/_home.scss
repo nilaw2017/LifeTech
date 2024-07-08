@@ -1,6 +1,30 @@
 .main {
+  padding: 220px 0 220px 0;
+  overflow: hidden;
+  .carousel-card {
+    border-radius: 10px;
+    padding: 30px;
+    i {
+      color: #ff7200;
+    }
+    .p {
+      font-size: 18px;
+    }
+    img {
+      width: fit-content !important;
+    }
+    h5 {
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 14px;
+    }
+  }
+  .bgimg {
+    width: inherit;
+  }
   h1 {
-    width: 200px;
+    width: 400px;
   }
   .title-box {
     p {
@@ -25,11 +49,20 @@
       padding: 65px 30px 30px;
       background-color: #f4f5fa;
       border-radius: 20px;
-      i {
+      > .card-icon {
         position: absolute;
         top: -35px;
         left: 50%;
+        padding: 20px;
+        width: 75px;
+        height: 75px;
         transform: translate(-50%);
+        background-color: #ff7200;
+        border-radius: 50%;
+        i {
+          font-size: 35px;
+          color: #fff;
+        }
       }
       h3 {
         font-size: 20px;
@@ -63,5 +96,43 @@
         margin: 0;
       }
     }
+  }
+}
+
+.content {
+  position: inherit;
+  z-index: 2;
+  // width: 800px;
+  color: var(--primary-color);
+  h1 {
+    font-family: "Times New Roman";
+    font-size: 50px;
+    padding-left: 20px;
+    // margin-top: 9%;
+    letter-spacing: 2px;
+  }
+  .cn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    &:hover {
+      background-color: #fff;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+      transition: 0.3s ease;
+    }
+  }
+  span {
+    color: red;
+    font-size: 60px;
   }
 }
