@@ -72,13 +72,13 @@ footer{
   opacity: 1;
 }
 
-.footerButtom{
+.footerBottom{
   background-color: #000;
   padding: 20px;
   text-align: center;
 }
 
-.footerButtom p{
+.footerBottom p{
   color:white;
   font-size: 19px;
 }
