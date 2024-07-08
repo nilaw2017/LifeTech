@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .contact-details {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -33,3 +34,33 @@
     }
   }
 }
+=======
+
+.body {
+    background-color: rgb(122, 143, 91);
+  }
+  .useful-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .useful-links li {
+    margin-bottom: 10px;
+  }
+  
+  .useful-links a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .useful-links a:hover {
+    color: black;
+  }
+  
+  .useful-links i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: black;
+  }
+>>>>>>> 15034528709d51ffdf2035d02845688b5360199f
