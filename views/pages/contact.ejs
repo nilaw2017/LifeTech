@@ -1,74 +1,82 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<!doctype html>
-<html lang="en">
-<head>
-=======
-<!DOCTYPE html>
-<html lang="en_US" dir="ltr">
-  <%- include("./../components/head.ejs") %>
-  <body>
-    <section class="contact container">
-      <div class="content">
-        <h2>Contact</h2>
->>>>>>> master
-=======
 <!DOCTYPE html>
 <html lang="en">
->>>>>>> 15034528709d51ffdf2035d02845688b5360199f
 
 <%- include("./../components/head.ejs") %>
+<%- include("./../components/topbar.ejs") %>
 <body>
-    <div class="container">
-        <div class="contact-form">
-            <h1>Contact Us</h1>
-            <form id="contact-form">
-                <div class="form-group">
-                    <input type="text" id="name" name="name" placeholder="Name" required>
-                    <label for="name">Name</label>
-                </div>
-                <div class="form-group">
-                    <input type="email" id="email" name="email" placeholder="Email" required>
-                    <label for="email">Email</label>
-                </div>
-                <div class="form-group">
-                    <textarea id="message" name="message" placeholder="Message" required></textarea>
-                    <label for="message">Message</label>
-                </div>
-                <div class="form-group">
-                    <button type="submit">Send Message</button>
-                </div>
-            </form>
-            <div class="contact-info">
-				<div class="contact-info">
-					<h2>Keep in Touch</h2>
-					<p><i class="fas fa-phone"></i> Phone: 9766459711</p>
-					<p><i class="fas fa-envelope"></i> Email: lifetecg@gmail.com</p>
-					<p><i class="fas fa-map-marker-alt"></i> Address: Kumaripati, Lalitpur</p>
-					<p><i class="fas fa-clock"></i> Open Hour: 10AM-5PM <br>Mon-Fri</br></p>
-					<div class="contact-info">
-						<div class="contact-info">
-							<h3>Useful Links</h3>
-				
-<ul class="useful-links">
-    <li><a href="https://www.example.com/about"><i class="fas fa-info-circle"></i> About Us</a></li>
-    <li><a href="https://www.example.com/services"><i class="fas fa-cogs"></i> Our Services</a></li>
-    <li><a href="https://www.example.com/contact"><i class="fas fa-envelope"></i> Contact Form</a></li>
-    <li><a href="https://www.example.com/social-media"><i class="fas fa-share-alt"></i> Social Media</a></li>
-</ul>
-							</ul>
-								
-								</div>
-							</div>
-						</div>
-							</div>
-						</div>
-					</div>
-				</div>
-            </div>
-        </div>
     
+    <div class="container">
+        <!-- LET'S WORK TOGETHER -->
+      <div class="pb-5">
+        <div class="text-center title-box">
+          <p>Contact Us</p>
+          <h2>Keep In Touch</h2>
+        </div>
+        </div>
+        <div class="contact-details mt-5">
+          <form action="">
+            <input type="text" name="name" id="name" placeholder="Your Name" />
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+            />
+
+            <input
+              type="text"
+              name="pnumber"
+              id="pnumber"
+              placeholder="Your Phone Number"
+            />
+
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              placeholder="Please Leave Your Message"
+            ></textarea>
+          </form>
+
+          <div class="company-detail">
+            <div class="d-flex gap-3 mb-3">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h5 class="fw-bold">Location</h5>
+                <h6>Kumaripati,Lalitpur </h6>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 mb-3">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h5 class="fw-bold">Phone</h5>
+                <h6>9766459711</h6>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 mb-3">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h5 class="fw-bold">Email</h5>
+                <h6>lifetech@gmail.com</h6>
+              </div>
+            </div>
+            <div class="d-flex gap-3 mb-3">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <h5 class="fw-bold">Open Hours</h5>
+                  <h6>Mon-Fri<br>10Am-5Pm</h6>
+                </div>
+              </div>     
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary contact-us">Submit</button>        
+      </div>
+
     </div>
+    
 
     <script src="script.js"></script>
 </body>
